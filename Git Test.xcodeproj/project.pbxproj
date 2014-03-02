@@ -21,6 +21,7 @@
 		E02973F218C3409100B4859C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E02973D418C3409100B4859C /* UIKit.framework */; };
 		E02973FA18C3409100B4859C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E02973F818C3409100B4859C /* InfoPlist.strings */; };
 		E02973FC18C3409100B4859C /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E02973FB18C3409100B4859C /* Git_TestTests.m */; };
+		E029740718C3468D00B4859C /* CTTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E029740618C3468D00B4859C /* CTTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		E02973F718C3409100B4859C /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		E02973F918C3409100B4859C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E02973FB18C3409100B4859C /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		E029740518C3468D00B4859C /* CTTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTTest.h; sourceTree = "<group>"; };
+		E029740618C3468D00B4859C /* CTTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		E02973C418C3409100B4859C = {
 			isa = PBXGroup;
 			children = (
+				E029740518C3468D00B4859C /* CTTest.h */,
+				E029740618C3468D00B4859C /* CTTest.m */,
 				E02973D618C3409100B4859C /* Git Test */,
 				E02973F518C3409100B4859C /* Git TestTests */,
 				E02973CF18C3409100B4859C /* Frameworks */,
@@ -252,6 +257,7 @@
 			files = (
 				E02973DD18C3409100B4859C /* main.m in Sources */,
 				E02973E118C3409100B4859C /* CTAppDelegate.m in Sources */,
+				E029740718C3468D00B4859C /* CTTest.m in Sources */,
 				E02973E718C3409100B4859C /* CTViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
